@@ -1,3 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Krona+One&family=Open+Sans&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#fd3232];
+  }
+}
+@layer components {
+  .pro {
+    @apply hover:rounded-[47.5px]  hover:p-[4px]  hover:bg-[#1C1515] hover:transition-all hover:text-white transition ease-in-out delay-150  hover:scale-110 duration-200;
+  }
+  .hovi {
+    @apply hover:opacity-50 transition duration-300;
+  }
+  .oppa {
+    @apply opacity-80;
+  }
+}
